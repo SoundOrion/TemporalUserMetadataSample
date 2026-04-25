@@ -24,7 +24,7 @@ foreach (var item in desc.Memo)
     Console.WriteLine($"{item.Key}: {value}");
 }
 
-/////////////////////////////////////
+Console.WriteLine("------------------------------------------");
 
 var result2 = await TemporalUserMetadataReader.GetAsync2(client, workflowId);
 
